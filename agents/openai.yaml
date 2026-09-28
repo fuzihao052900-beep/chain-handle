@@ -1,0 +1,4 @@
+interface:
+  display_name: "chain_handle"
+  short_description: "识别出行链 CSV、生成 GDB，并提供 kind 分类显示代码"
+  default_prompt: "使用 $chain-handle 检查出行链表格的必要字段，将有效轨迹处理为文件地理数据库，并在成功后提供可粘贴到 ArcGIS Pro Python 窗口的 kind 分类符号代码。"
